@@ -4,9 +4,11 @@
 1. 先继承UITableViewCell
 2. 定义各种变量
 3. 直接
-    ```override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+```
+   override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
           super.init(style: style, reuseIdentifier: reuseIdentifier)
-    }```
+    }
+ ```
 4. 对每一个组件进行规划（用snapkit）
 5.  ```func update(by question: QuestionModel) {
           userNameLabel.text = "学校官方部门"
@@ -20,4 +22,5 @@
           likesLabel.text = "10000"
           likesLabel.sizeToFit()
     }
+```
      用一个函数赋值
